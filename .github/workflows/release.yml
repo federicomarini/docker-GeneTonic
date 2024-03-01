@@ -29,6 +29,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: quay.io/federicomarini/GeneTonic:${{ github.event.release.tag_name }}
+          tags: quay.io/federicomarini/genetonic:${{ github.event.release.tag_name }}
 
 
